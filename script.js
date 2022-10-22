@@ -47,7 +47,6 @@ countries_display.append(display)
 }
 
 };
-countries();
 
  
 let weather_data=async function (lat,lon,id){
@@ -70,4 +69,5 @@ weather_info.innerHTML=`
    <p class="card-text">Humidity :${humidity}</p>`
 }
 
+countries();
 
